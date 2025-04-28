@@ -1,14 +1,14 @@
 [NEAT]
 fitness_criterion     = max
-fitness_threshold     = 324.0
-pop_size              = 3
+fitness_threshold     = 64.0
+pop_size              = 150
 reset_on_extinction   = False
 
 [DefaultGenome]
 # node gene configuration
-num_inputs            = 81
+num_inputs            = 16
 num_hidden            = 0
-num_outputs           = 729
+num_outputs           = 64
 feed_forward          = False
 initial_connection    = full_direct
 
